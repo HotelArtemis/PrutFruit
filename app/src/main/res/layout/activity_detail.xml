@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/gradient1"
+            android:layout_centerHorizontal="true"
+            ></ImageView>
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/img_data"
+    android:src="@drawable/ic_launcher_background"
+    />
+    </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="314dp"
+            android:background="?attr/cardbackground">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/shop"
+        android:id="@+id/gunung"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_nama"
+        android:layout_toRightOf="@+id/gunung"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="?attr/textcolor"
+        android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:background="?attr/cardbackground">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/stok"
+        android:src="@drawable/stock"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_barang"
+        android:layout_toRightOf="@+id/stok"
+        android:layout_marginTop="15dp"
+        android:textColor="?attr/textcolor"
+        android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="426dp"
+        android:background="?attr/cardbackground">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/phone"
+        android:id="@+id/phon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/phon"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_tel"
+        android:textColor="?attr/textcolor"
+        android:backgroundTint="?attr/tintcolor"
+        android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="482dp"
+            android:background="?attr/cardbackground">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/loc1"
+                android:id="@+id/aalamat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/aalamat"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_lamat"
+                android:textColor="?attr/textcolor"
+                android:layout_marginLeft="15dp"/>
+        </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="580dp"
+        android:text="Call"
+        android:layout_toRightOf="@+id/tombol11"
+        android:textColor="?attr/textbuttoncolor"
+        android:drawableLeft="@drawable/tele"
+        android:background="?attr/buttoncolor"
+        android:id="@+id/btn_call"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:layout_marginTop="580dp"
+        android:id="@+id/tombol11"
+        android:text="share"
+        android:drawableLeft="@drawable/sharer"
+        android:textColor="?attr/textbuttoncolor"
+        android:background="?attr/buttoncolor"
+        android:layout_marginLeft="40dp"
+        />
+
+
+</RelativeLayout>
