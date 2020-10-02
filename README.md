@@ -12,3 +12,5 @@ Still Under Heavy-Development
 ````
 ## Fitur :
 1. Support Dark Mode <img src="https://github.com/HotelArtemis/PrutFruit/blob/master/img/dark.png" alt="dark" width="20px;" height="20px">
+
+<h4> <b>Disclaimer : </b> this is just school project! so any logo i pick absolutely pure from internet is not mine.
